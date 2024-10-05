@@ -5,11 +5,17 @@
     </head>
     <body>
         <p style="text-align: center; font-size: larger;">Send us a Message</p>
-        <form>
-            <label for="fname">First Name</label><br>
+        <form style="text-align: center;">
+            <label for="fname" style="text-align: center;">Your Name</label><br>
             <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="lname"><br>
-        </form>
+            <label for="email">Your Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="tel">Mobile Number</label><br>
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            <label for="text">Type Your Message</label><br>
+            <input type="text" id="text" name="text"><br><br>
+            <input type="button" value="Send Us Message" style="background-color: rgb(47, 255, 64);
+            font-family: monospace; color: white; block-size: 50px;">
+        </form> 
     </body>
 </html>
