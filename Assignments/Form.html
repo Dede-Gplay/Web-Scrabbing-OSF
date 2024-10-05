@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My First Form</title>
-    </head>
-    <body>
-        <p style="text-align: center; font-size: larger;">Send us a Message</p>
-        <form style="text-align: center;">
-            <label for="fname" style="text-align: center;">Your Name</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="email">Your Email</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="tel">Mobile Number</label><br>
-            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
-            <label for="text">Type Your Message</label><br>
-            <input type="text" id="text" name="text"><br><br>
-            <input type="button" value="Send Us Message" style="background-color: rgb(47, 255, 64);
-            font-family: monospace; color: white; block-size: 50px;">
-        </form> 
-    </body>
+<head>
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow:0 4px 8px  rgb(4, 235, 4);
+            width: 350px;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width:100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #07e449;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: None;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        .required::after {
+            content: "*";
+            color: red;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-form">
+        <h2>Send Us Message</h2>
+        <form target="_blank">
+            <label for="name" class="required" style="text-align: center;">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email" class="required" style="text-align: center;">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone" class="required" style="text-align: center;">Mobile Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message" class="required" style="text-align: center;">Type Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Us Message">
+        </form>
+    </div>
+
+</body>
 </html>
