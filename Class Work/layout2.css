@@ -3,32 +3,133 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
 .logotop {
-    background-color: aqua;
-    min-width: 25%;
+    background-color: transparent;
+    min-width: 30px;
     float: left;
-    
+
 }
 .logotop img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 .brand {
-    background-color: blue;
-    color: whitesmoke;
+    color:rgb(219, 12, 219);
     font-weight: bold;
     min-width: 29%;
     float: left;
+    font-size:xx-large;
 }
 .socialicon {
-    background-color: rgb(111, 164, 243);
-    margin-left: 300px;
-    min-width: 30px;
+    background-color:transparent;
+    margin-left: 650px;
+    min-width: 10px;
     float: left;
+    size: 20px;
 }
 .socialicon img {
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 20%;
 }
 .Topmenu{
     clear: both;
+    text-align: right;
+    
+}
+ul {
+    list-style: none;
+    display: inline;
+    
+}
+li {
+    display: inline;
+    padding-left: 10px;
+   
+}
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.main-header {
+    background-color: rgb(161, 230, 161);
+    position: sticky;
+    top: 0;
+}
+.row1{
+    background-color: rgb(209, 198, 198);
+    float: left;
+    width: 30%;
+    margin-left: 5px;
+    margin-top: 7px;
+    border: 1px solid rgb(209, 198, 198) ;
+    border-radius: 7px;
+    
+}
+.row2 {
+    background-color: rgb(209, 198, 198);
+    float: left;
+    width: 30%;
+    margin-left: 5px;
+    margin-top: 7px;
+    border: 1px solid rgb(209, 198, 198) ;
+    border-radius: 7px;
+    
+    
+}
+.row3 {
+    background-color: rgb(209, 198, 198);
+    float: left;
+    width: 30%;
+    margin-left: 5px;
+    margin-top: 7px;
+    border: 1px solid rgb(209, 198, 198) ;
+    border-radius: 7px;
+    
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(161, 230, 161);
+}
+.foot1 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    color: white;
+}
+.foot2 {
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    color:rgb(219, 12, 219);
+}
+.foot3 {
+    background-color:transparent;
+    margin-left: 750px;
+    min-width: 10px;
+    float: left;
+    size: 20px;
+}
+.foot3 img{
+    height: 25%;
+    width: 25%;
+}
+
+p {
+    column-count: 2;
+}
+.row1:hover {
+    transform: scale(1.01);
+}
+.row2:hover {
+    transform: scale(1.01);
+}
+.row3:hover {
+    transform: scale(1.01);
 }
