@@ -1,33 +1,47 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
 }
+
 header {
-    background-color: grey;
-    text-align: center;
+    background-color: rgb(170, 167, 167);
+    width: 100%;
     padding: 25px;
+    text-align: center;
 }
 .navbar {
     background-color: black;
+    width: 100%;
+    padding: 20px;
     height: 50px;
 }
 aside {
     width: 30%;
     float: left;
-    padding: 10%;
-    
-
 }
 section {
-    width: 35%;
+    width: 30%;
     float: left;
-    padding: 10%;
-
-
-}article {
-    width: 35%;
+}
+article {
+    width: 30%;
     float: left;
-    padding: 10%;
+}
+footer {
+    background-color: rgb(170, 167, 167);
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    clear: both;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
 }
