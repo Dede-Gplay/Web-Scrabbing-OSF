@@ -23,7 +23,7 @@
     background-color:transparent;
     margin-left: 650px;
     min-width: 10px;
-    float: left;
+    float:left;
     size: 20px;
 }
 .socialicon img {
@@ -60,7 +60,7 @@ a:hover{
 }
 .row1{
     background-color: rgb(209, 198, 198);
-    float: left;
+    display: flex;
     width: 30%;
     margin-left: 5px;
     margin-top: 7px;
@@ -70,7 +70,7 @@ a:hover{
 }
 .row2 {
     background-color: rgb(209, 198, 198);
-    float: left;
+    display:flex;
     width: 30%;
     margin-left: 5px;
     margin-top: 7px;
@@ -81,7 +81,7 @@ a:hover{
 }
 .row3 {
     background-color: rgb(209, 198, 198);
-    float: left;
+    display: flex;
     width: 30%;
     margin-left: 5px;
     margin-top: 7px;

@@ -1,0 +1,26 @@
+.img {
+    width: 200px;
+    border: solid;
+    border-width: 2px;
+}
+.image {
+    width: 200px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+}
+.images{
+    width: 200px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 100px;
+
+}
+.pics {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 100px;
+    
+}
