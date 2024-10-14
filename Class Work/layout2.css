@@ -60,7 +60,7 @@ a:hover{
 }
 .row1{
     background-color: rgb(209, 198, 198);
-    display: flex;
+   float: left;
     width: 30%;
     margin-left: 5px;
     margin-top: 7px;
@@ -70,7 +70,7 @@ a:hover{
 }
 .row2 {
     background-color: rgb(209, 198, 198);
-    display:flex;
+   float: left;
     width: 30%;
     margin-left: 5px;
     margin-top: 7px;
@@ -81,7 +81,7 @@ a:hover{
 }
 .row3 {
     background-color: rgb(209, 198, 198);
-    display: flex;
+    float: left;
     width: 30%;
     margin-left: 5px;
     margin-top: 7px;
