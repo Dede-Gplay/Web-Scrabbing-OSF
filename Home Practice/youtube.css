@@ -1,26 +1,44 @@
-.img {
-    width: 200px;
+.main-div {
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
+    border-color:rgb(209, 206, 206);
+    padding: 5px;
+    margin-left: 5px;
+    width: 300px;
 }
-.image {
-    width: 200px;
-    border: solid;
-    border-width: 2px;
-    border-radius: 8px;
-}
-.images{
-    width: 200px;
-    border: solid;
-    border-width: 2px;
-    border-radius: 100px;
-
-}
-.pics {
-    width: 200px;
-    height: 200px;
-    border: solid;
-    border-width: 0px;
-    border-radius: 100px;
+.word{
+    margin-left: 8px;
+    font-family: Arial;
+    font-size: larger;
     
+}
+.yes {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.no {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.box {
+    border: solid;
+    background-color: black;
+    font-family: Arial;
+    margin-left: 5px;
+    width: 300px ;
+    margin-top: 10px;
+}
+.install {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.add {
+    margin-left: 10px;
+    color: rgb(189, 186, 186);
 }
